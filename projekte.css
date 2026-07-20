@@ -1,0 +1,74 @@
+body {
+    background-color: cornsilk;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: coral;
+    padding: 20px;
+    text-align: center;
+}
+
+#link1 {
+    font-family: Arial, sans-serif;
+    color: coral;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: coral;
+    font-size: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container,
+.container2,
+.container3,
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 20px 20px;
+    max-width: 100%;
+    gap: 20px;
+}
+
+#tit1,
+#tit2,
+#tit3,
+#tit4 {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    margin: 20px 0 0;
+    color: coral;
+}
+
+#text1,
+#text2,
+#text3,
+#text4 {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    margin: 0 0 20px;
+    color: coral;
+    max-width: 100%;
+}
+nur hier wurde KI benutzt, da der code den ich selbst geschrieben habe es irgendwie hinbekommen hat, dass die website dann seitlich scrollt. Ich habe der KI in visual studio code gefragt ob sie es mir änder kann so das es nicht seitlcih scrollt.
